@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
+import os
 
 from pathlib import Path
 
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-+8lk#!kihfkrlhuze==k#-m53@js15%0fr08!l%fe(rgo9dooa
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-sampetchey-boutiqueado-l65gejxy4dj.ws-eu114.gitpod.io']
+ALLOWED_HOSTS = ['8000-sampetchey-boutiqueado-h2tb8f8zbk1.ws-eu114.gitpod.io']
 
 
 # Application definition
